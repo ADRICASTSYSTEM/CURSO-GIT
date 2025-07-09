@@ -1,0 +1,58 @@
+-- ++++++++++++++++++
+-- CONFIGURACION GIT
+-- ++++++++++++++++++
+
+git config --list
+
+git config --global user.name "Nahin Castro"
+git config --flobal user.email "adrian_negocios1@hotmail.com"
+
+-- +++++++++++++++++++++
+-- rama main por defecto
+-- +++++++++++++++++++++
+
+git config --global init.defaultBranch main
+
+git config --global alias.co checkout
+
+
+-- +++++++++++++++++++++
+-- CREANDO REPOSITORIOS
+-- +++++++++++++++++++++
+git clone url_repositorio_remoto -- clona un repositorio remoto
+
+git init   -- Crea un repositorio local
+
+git add .  -- Agrega todos los cambios
+
+git status -- Se verifica el status de los cambios
+
+git commit -m "cambios" -- Se crea la instantanea de los cambios
+
+git commit --amend -m "rescribe cambios" -- se rescribe el ultimo commit
+
+git commit -am "se salta el stage"
+
+git log --oneline --graph -- decorate
+
+git log --oneline -n -5  --  permite ver los ultimos cambios
+
+git log --oneline -p -5 --  permite ver linea por linea
+
+para salir se debe poner q que significa quit
+
+-- ++++++++++++++++++++++++++
+--  trabajar en remoto
+-- ++++++++++++++++++++++++++
+
+git push origin main --permite enviar el repositorio a git hub
+
+
+
+
+
+
+
+
+
+
