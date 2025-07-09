@@ -57,6 +57,8 @@ origin  git@github.com:ADRICASTSYSTEM/CURSO-GIT.git (fetch)
 origin  git@github.com:ADRICASTSYSTEM/CURSO-GIT.git (push)
 -- envias los cambios al repositorio remoto
 git push origin main --permite enviar el repositorio a git hub
+-- en el repositorio local recibes los cambios del remoto
+git pull origin main -- esto hace un fetch y un merge es decir verifica y luego une los cambios
 
 
 
