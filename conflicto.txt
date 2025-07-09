@@ -1,1 +1,1 @@
-conflicto local
+un nuevo cambio para el conflicto
