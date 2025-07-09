@@ -44,7 +44,18 @@ para salir se debe poner q que significa quit
 -- ++++++++++++++++++++++++++
 --  trabajar en remoto
 -- ++++++++++++++++++++++++++
-
+-- pasos para configurar clave ssh en el repositorio git hub
+ ssh-keygen -t rsa -b 4096 -C "castroadrian86@gmail.com"
+-- copias la clave
+cat ~/.ssh/id_rsa.pub
+-- configuras el repositorio
+git remote set-url origin git@github.com:ADRICASTSYSTEM/CURSO-GIT.git
+-- ver que se realizo correctamente
+git remote -v
+-- se visualiza
+origin  git@github.com:ADRICASTSYSTEM/CURSO-GIT.git (fetch)
+origin  git@github.com:ADRICASTSYSTEM/CURSO-GIT.git (push)
+-- envias los cambios al repositorio remoto
 git push origin main --permite enviar el repositorio a git hub
 
 
